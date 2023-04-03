@@ -1,0 +1,12 @@
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\bin\Debug\net7.0\Provet.Entities.deps.json
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\bin\Debug\net7.0\Provet.Entities.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\bin\Debug\net7.0\Provet.Entities.pdb
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.csproj.AssemblyReference.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.AssemblyInfoInputs.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.AssemblyInfo.cs
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.csproj.CoreCompileInputs.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\refint\Provet.Entities.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\Provet.Entities.pdb
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Entities\obj\Debug\net7.0\ref\Provet.Entities.dll

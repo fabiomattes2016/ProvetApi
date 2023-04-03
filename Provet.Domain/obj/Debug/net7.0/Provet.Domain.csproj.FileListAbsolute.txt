@@ -1,0 +1,15 @@
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\bin\Debug\net7.0\Provet.Domain.deps.json
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\bin\Debug\net7.0\Provet.Domain.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\bin\Debug\net7.0\Provet.Domain.pdb
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.csproj.AssemblyReference.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.AssemblyInfoInputs.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.AssemblyInfo.cs
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\refint\Provet.Domain.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.pdb
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\ref\Provet.Domain.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\bin\Debug\net7.0\Provet.Entities.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\bin\Debug\net7.0\Provet.Entities.pdb
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.Domain\obj\Debug\net7.0\Provet.Domain.csproj.CopyComplete

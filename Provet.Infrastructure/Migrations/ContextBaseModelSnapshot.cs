@@ -22,6 +22,53 @@ namespace Provet.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Provet.Entities.Entities.Perfil", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("PERF_ID");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("AtualizadoEm")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("PERF_ATUALIZADO_EM");
+
+                    b.Property<bool>("Atualizar")
+                        .HasColumnType("boolean")
+                        .HasColumnName("PERF_ATUALIZAR");
+
+                    b.Property<bool>("Consultar")
+                        .HasColumnType("boolean")
+                        .HasColumnName("PERF_CONSULTAR");
+
+                    b.Property<DateTime?>("CriadoEm")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("PERF_CRIADO_EM");
+
+                    b.Property<bool>("Deletar")
+                        .HasColumnType("boolean")
+                        .HasColumnName("PERF_DELETAR");
+
+                    b.Property<bool>("Inserir")
+                        .HasColumnType("boolean")
+                        .HasColumnName("PERF_INSERIR");
+
+                    b.Property<bool>("Listar")
+                        .HasColumnType("boolean")
+                        .HasColumnName("PERF_LISTAR");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("PERF_NOME");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TB_PERFIL");
+                });
+
             modelBuilder.Entity("Provet.Entities.Entities.Responsavel", b =>
                 {
                     b.Property<int>("Id")
@@ -32,7 +79,7 @@ namespace Provet.Infrastructure.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("AtualizadoEm")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("RESP_ATUALIZADO_EM");
 
                     b.Property<string>("Bairro")
@@ -63,11 +110,11 @@ namespace Provet.Infrastructure.Migrations
                         .HasColumnName("RESP_CPF");
 
                     b.Property<DateTime?>("CriadoEm")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("RESP_CRIADO_EM");
 
                     b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("RESP_DATA_NASCIMENTO");
 
                     b.Property<string>("Email")
@@ -108,6 +155,47 @@ namespace Provet.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TB_RESPONSAVEL");
+                });
+
+            modelBuilder.Entity("Provet.Entities.Entities.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("USU_ID");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("AtualizadoEm")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("USU_ATUALIZADO_EM");
+
+                    b.Property<DateTime?>("CriadoEm")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("USU_CRIADO_EM");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("USU_NOME");
+
+                    b.Property<string>("NomeUsuario")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("USU_USUARIO");
+
+                    b.Property<int>("PerfilId")
+                        .HasColumnType("integer")
+                        .HasColumnName("USU_GRUPO");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("USU_SENHA");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TB_USUARIO");
                 });
 #pragma warning restore 612, 618
         }

@@ -5,6 +5,7 @@
         public int Status { get; set; }
         public string? Message { get; set; }
         public string? StackTrace { get; set; }
+        public Object? Data { get; set; }
         public DateTime Date { get; set; }
     }
 }

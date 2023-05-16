@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iFFLb+1VtpApy4UrsBQan1E01A0wtQHLY8IbvCS5/QYK1P9o+MIvb4URy/eUhTYprMFCkIwi90q5rzjjmIV2yw==",
+  "dgSpecHash": "xySW7AnCJkjVQ0rJ84TfXDvbBHLCFCgI/G1MZ8OLOG3ES+k+puBbpFLu34E/f7vUwdJ/RB/F1w11hCZs9IGaUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gpnet\\Documents\\CSharp\\Projetos\\Provet\\Provet.API\\Provet.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gpnet\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\cpf\\2.1.0\\cpf.2.1.0.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

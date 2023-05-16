@@ -29,5 +29,8 @@ namespace Provet.Infrastructure.Configuration
         }
 
         public DbSet<Responsavel> Responsaveis { get; set; }
+        public DbSet<Perfil> Perfis { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<AtribuicaoPermissoes> AtribuicaoPermissoesa { get; set; }
     }
 }

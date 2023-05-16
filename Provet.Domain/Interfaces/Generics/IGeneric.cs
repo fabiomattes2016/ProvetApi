@@ -1,4 +1,6 @@
-﻿namespace Provet.Domain.Interfaces.Generics
+﻿using Provet.Entities.Entities;
+
+namespace Provet.Domain.Interfaces.Generics
 {
     public interface IGeneric<T> where T : class
     {

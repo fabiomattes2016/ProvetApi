@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provet.API", "Provet.API\Provet.API.csproj", "{D8425414-D84E-4100-9BF7-3EDF2A391CCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provet.API", "Provet.API\Provet.API.csproj", "{D8425414-D84E-4100-9BF7-3EDF2A391CCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provet.Domain", "Provet.Domain\Provet.Domain.csproj", "{A9C1FC9E-5D44-4F58-B71C-A270D166873B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provet.Domain", "Provet.Domain\Provet.Domain.csproj", "{A9C1FC9E-5D44-4F58-B71C-A270D166873B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provet.Entities", "Provet.Entities\Provet.Entities.csproj", "{27B31832-0AF3-4373-AABE-855C66907E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provet.Entities", "Provet.Entities\Provet.Entities.csproj", "{27B31832-0AF3-4373-AABE-855C66907E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provet.Infrastructure", "Provet.Infrastructure\Provet.Infrastructure.csproj", "{28C0752C-1E8C-4573-BC54-A2493D4E5677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provet.Infrastructure", "Provet.Infrastructure\Provet.Infrastructure.csproj", "{28C0752C-1E8C-4573-BC54-A2493D4E5677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provet.Presentation", "Provet.Presentation\Provet.Presentation.csproj", "{4214B52F-1D30-41FC-AAD5-2B93A67E6C77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{28C0752C-1E8C-4573-BC54-A2493D4E5677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C0752C-1E8C-4573-BC54-A2493D4E5677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C0752C-1E8C-4573-BC54-A2493D4E5677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4214B52F-1D30-41FC-AAD5-2B93A67E6C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4214B52F-1D30-41FC-AAD5-2B93A67E6C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4214B52F-1D30-41FC-AAD5-2B93A67E6C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4214B52F-1D30-41FC-AAD5-2B93A67E6C77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

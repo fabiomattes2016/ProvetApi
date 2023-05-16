@@ -2,11 +2,15 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Nest;
 using Provet.Domain;
+using Provet.Domain.Interfaces.Autenticacao;
 using Provet.Domain.Interfaces.Generics;
 using Provet.Domain.Interfaces.Responsaveis;
-using Provet.Domain.Interfaces.Services;
+using Provet.Domain.Interfaces.Services.Autenticacao;
+using Provet.Domain.Interfaces.Services.Responsaveis;
+using Provet.Domain.Services.Autenticacao;
 using Provet.Domain.Services.Responsaveis;
 using Provet.Infrastructure.Configuration;
+using Provet.Infrastructure.Repositories.Autenticacao;
 using Provet.Infrastructure.Repositories.Generic;
 using Provet.Infrastructure.Repositories.Responsaveis;
 
@@ -31,9 +35,13 @@ namespace Provet.API
             // Config Interface e Repo
             builder.Services.AddSingleton(typeof(IGeneric<>), typeof(GenericRepository<>));
             builder.Services.AddSingleton<IResponsavel, ResponsavelRepository>();
+            builder.Services.AddSingleton<IPerfil, PerfilRepository>();
+            builder.Services.AddSingleton<IUsuario, UsuarioRepository>();
 
             // Config Domain
             builder.Services.AddSingleton<IResponsavelService, ResponsavelService>();
+            builder.Services.AddSingleton<IPerfilService, PerfilService>();
+            builder.Services.AddSingleton<IUsuarioService, UsuarioService>();
 
             // Elastic Search
             var uri = _configuration.GetSection("ElasticSearchSettings").GetSection("Uri").Value;

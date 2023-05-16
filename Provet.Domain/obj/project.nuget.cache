@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vUWjtuQWOc+tq7EMae+HmKRuvm1rAXSTVd9Rvnzi0IIqS2t7CXGT2ibdBdPM9Axvcbx5ffBfj48AVwpCq+8iIA==",
+  "dgSpecHash": "K5uwRi8O+yaVe2rtHoBTgEQFlAH936fveKYF48HizVurqRpyA21uNa3NirtgimKYPeQyIlnoXS/VQvs1iu6lCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gpnet\\Documents\\CSharp\\Projetos\\Provet\\Provet.Domain\\Provet.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gpnet\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\cpf\\2.1.0\\cpf.2.1.0.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\gpnet\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",

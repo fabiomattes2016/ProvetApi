@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Provet.Domain.Commands.Requests;
+using Provet.Domain.Commands.Requests.Responsaveis;
 using Provet.Domain.Commands.Responses;
-using Provet.Domain.Queries;
+using Provet.Domain.Queries.Responsaveis;
 using Provet.Entities.Entities;
 
 namespace Provet.API.Controllers.v1

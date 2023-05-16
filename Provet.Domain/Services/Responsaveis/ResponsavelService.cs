@@ -1,5 +1,5 @@
 ﻿using Provet.Domain.Interfaces.Responsaveis;
-using Provet.Domain.Interfaces.Services;
+using Provet.Domain.Interfaces.Services.Responsaveis;
 using Provet.Entities.Entities;
 
 namespace Provet.Domain.Services.Responsaveis

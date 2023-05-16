@@ -53,3 +53,4 @@ C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.API\bin\Debug\net7.0\Cpf.
 C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.API\bin\Debug\net7.0\Elasticsearch.Net.dll
 C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.API\bin\Debug\net7.0\Nest.dll
 C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gpnet\Documents\CSharp\Projetos\Provet\Provet.API\bin\Debug\net7.0\BCrypt.Net-Core.dll
